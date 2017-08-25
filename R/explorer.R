@@ -4,7 +4,7 @@
 #'
 #' @param data  A list of (optionally named) data frames. Also accepts a character vector of data frame names (must be loaded in environment).
 #' @param addEnv  Logical. Indicates whether to add all data frames in current environemnt to explorer. Defaults to \code{addEnv=TRUE}.
-#' @param demo   Logical. Indicates whether to display demo data frames.  If \code{TRUE}, \code{dataList} and \code{addEnv} settings will be ignored.  Defaults to \code{demo=FALSE}.
+#' @param demo   Logical. Indicates whether to display demo data frames.  If \code{TRUE}, \code{data} and \code{addEnv} settings will be ignored.  Defaults to \code{demo=FALSE}.
 
 #'
 #' @examples
