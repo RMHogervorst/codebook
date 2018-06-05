@@ -12,7 +12,7 @@
 #' @export
 codebook <- function(data) {
 
-  if(is.tibble(data)){
+  if(any(class(data) %in% "tbl_df"){
     warning("Codebook may not work as expected on objects of class `tbl_df` that contain list-columns.")  
   }
   
